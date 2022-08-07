@@ -1,0 +1,22 @@
+--- Departments POST Request
+
+{
+        "name": "Marketing",
+        "headOfDepartment": "Ravikrishna K"
+}
+
+--- Employees POST Request
+
+{
+        "firstName": "Kiran",
+        "lastName": "Krishnan",
+        "joiningDate": "2017-16-21",
+        "salary": 70000,
+        "city": "Bangalore",
+        "phoneNumber": "7456321569",
+        "department": {
+            "name": "HR",
+            "headOfDepartment": "John Carter"
+        }
+}
+
